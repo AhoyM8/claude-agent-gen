@@ -120,7 +120,7 @@ Are there alternative approaches?
 
 ### 📦 Prerequisites
 
-- **Node.js 18+** - [Download here](https://nodejs.org/)
+- **Node.js 20+** - [Download here](https://nodejs.org/)
 - **Git** - [Download here](https://git-scm.com/)
 - **Code Editor** - VS Code recommended
 

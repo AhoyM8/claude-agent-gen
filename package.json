@@ -37,12 +37,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/claude-agent-gen.git"
+    "url": "git+https://github.com/AhoyM8/claude-agent-gen.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/claude-agent-gen/issues"
+    "url": "https://github.com/AhoyM8/claude-agent-gen/issues"
   },
-  "homepage": "https://github.com/your-username/claude-agent-gen#readme",
+  "homepage": "https://github.com/AhoyM8/claude-agent-gen#readme",
   "dependencies": {
     "commander": "^12.0.0",
     "chalk": "^5.3.0",
@@ -58,7 +58,7 @@
     "prettier": "^3.0.0"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   },
   "files": [
     "bin/",
@@ -71,6 +71,6 @@
   ],
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/your-username"
+    "url": "https://github.com/sponsors/AhoyM8"
   }
 }

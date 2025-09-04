@@ -30,7 +30,7 @@ The tool works out-of-the-box without MCP:
 
 ### Prerequisites
 
-1. **Node.js 18+** installed
+1. **Node.js 20+** installed
 2. **Claude Desktop** or **VS Code with Claude extension**
 3. Internet connection
 
