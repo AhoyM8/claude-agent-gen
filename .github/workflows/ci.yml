@@ -33,6 +33,7 @@ jobs:
       run: npm test
       
     - name: 🚀 Test CLI
+      shell: bash
       run: |
         chmod +x bin/claude-agent-gen.js || true
         timeout 30s node quick-demo.js || echo "Demo completed (timeout expected)"
@@ -104,6 +105,7 @@ jobs:
       run: npm ci
       
     - name: 🌐 Test real documentation sites  
+      shell: bash
       run: |
         chmod +x bin/claude-agent-gen.js || true
         timeout 30s ./bin/claude-agent-gen.js --url https://tailwindcss.com/docs/installation --name test-agent --depth 1 || echo "Test completed"
