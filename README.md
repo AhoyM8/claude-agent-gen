@@ -4,7 +4,7 @@
   
   [![npm version](https://badge.fury.io/js/claude-agent-gen.svg)](https://badge.fury.io/js/claude-agent-gen)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![Node.js CI](https://github.com/your-username/claude-agent-gen/workflows/Node.js%20CI/badge.svg)](https://github.com/your-username/claude-agent-gen/actions)
+  [![CI Pipeline](https://github.com/AhoyM8/claude-agent-gen/workflows/🤖%20CI/CD%20Pipeline/badge.svg)](https://github.com/AhoyM8/claude-agent-gen/actions)
   
   **🚀 Automatically generate specialized Claude agents from any documentation website**
   
@@ -61,7 +61,7 @@ Claude Agent Generator is a powerful CLI tool that **automatically crawls docume
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/claude-agent-gen.git
+git clone https://github.com/AhoyM8/claude-agent-gen.git
 cd claude-agent-gen
 
 # Install dependencies
@@ -311,14 +311,14 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 If you find this tool helpful, please give it a star! ⭐
 
-[![Star History Chart](https://api.star-history.com/svg?repos=your-username/claude-agent-gen&type=Date)](https://star-history.com/#your-username/claude-agent-gen&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=AhoyM8/claude-agent-gen&type=Date)](https://star-history.com/#AhoyM8/claude-agent-gen&Date)
 
 ## 🙋‍♀️ Support & Community
 
 ### 💬 Get Help
 - 📖 **Documentation** - Check out our [comprehensive docs](docs/)
-- 🐛 **Issues** - [Report bugs or request features](https://github.com/your-username/claude-agent-gen/issues)
-- 💡 **Discussions** - [Join community discussions](https://github.com/your-username/claude-agent-gen/discussions)
+- 🐛 **Issues** - [Report bugs or request features](https://github.com/AhoyM8/claude-agent-gen/issues)
+- 💡 **Discussions** - [Join community discussions](https://github.com/AhoyM8/claude-agent-gen/discussions)
 - 🐦 **Twitter** - Follow [@YourTwitter](https://twitter.com/YourTwitter) for updates
 
 ### 🎯 Roadmap
@@ -337,9 +337,9 @@ If you find this tool helpful, please give it a star! ⭐
   
   **Made with ❤️ by the Claude Agent Generator community**
   
-  [⭐ Star](https://github.com/your-username/claude-agent-gen) •
-  [🍴 Fork](https://github.com/your-username/claude-agent-gen/fork) •
+  [⭐ Star](https://github.com/AhoyM8/claude-agent-gen) •
+  [🍴 Fork](https://github.com/AhoyM8/claude-agent-gen/fork) •
   [📝 Contribute](CONTRIBUTING.md) •
-  [🐛 Report Issue](https://github.com/your-username/claude-agent-gen/issues)
+  [🐛 Report Issue](https://github.com/AhoyM8/claude-agent-gen/issues)
   
 </div>
