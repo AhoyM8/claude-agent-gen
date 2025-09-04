@@ -1,0 +1,163 @@
+name: ✨ Feature Request
+description: Suggest a new feature or enhancement
+title: "✨ [Feature]: "
+labels: ["enhancement", "needs-discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature! ✨
+        
+        We love hearing ideas that could make Claude Agent Generator even better. Please provide as much detail as possible to help us understand your vision.
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: 💡 Feature Description
+      description: A clear and detailed description of the feature you'd like to see
+      placeholder: Describe the feature you'd like to see implemented
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: 🎯 Problem Statement
+      description: What problem would this feature solve? What use case does it address?
+      placeholder: |
+        Current situation: Currently, when using the tool...
+        Problem: I need to... but the tool doesn't support...
+        Impact: This makes it difficult to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: 🎨 Proposed Solution
+      description: How do you envision this feature working?
+      placeholder: |
+        Describe your ideal solution:
+        - How would users interact with this feature?
+        - What would the command/API look like?
+        - What would the output be?
+        - Any specific behavior or options?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔄 Alternative Solutions
+      description: Have you considered any alternative approaches or workarounds?
+      placeholder: |
+        Alternative approaches you've considered:
+        - Workaround 1: ...
+        - Alternative implementation: ...
+        - Similar features in other tools: ...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: feature-type
+    attributes:
+      label: 🏷️ Feature Type
+      description: What type of feature is this?
+      options:
+        - Web Scraping Enhancement
+        - Content Processing Improvement
+        - Agent Generation Feature
+        - CLI/UX Improvement
+        - Performance Optimization
+        - Integration (MCP, etc.)
+        - Output Format
+        - Documentation/Examples
+        - Developer Experience
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: ⚡ Priority
+      description: How important is this feature to you?
+      options:
+        - Nice to have
+        - Would be helpful
+        - Important for my workflow
+        - Critical/Blocking
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: 🎭 Use Cases
+      description: Provide specific examples of how you or others would use this feature
+      placeholder: |
+        Example scenarios:
+        1. As a developer, I want to... so that I can...
+        2. When working with... documentation, I need to...
+        3. My team would use this to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: 💻 Code Examples
+      description: If applicable, provide code examples or mockups of how this feature might work
+      render: bash
+      placeholder: |
+        # Example command usage
+        ./bin/claude-agent-gen.js --new-feature-flag
+        
+        # Expected output or behavior
+        ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 📋 Additional Context
+      description: |
+        Anything else that would help us understand this feature request:
+        - Links to related tools or examples
+        - Screenshots or mockups
+        - Research you've done
+        - Community discussions
+      placeholder: Any additional context, links, or examples that would be helpful
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: 🤝 Contribution
+      description: Are you interested in contributing to this feature?
+      options:
+        - label: I'm interested in implementing this feature myself
+          required: false
+        - label: I can help with testing and feedback
+          required: false
+        - label: I can provide additional use cases and requirements
+          required: false
+        - label: I can help with documentation once implemented
+          required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: ✅ Checklist
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues and discussions to make sure this feature hasn't been requested
+          required: true
+        - label: I have provided a clear description of the problem this feature would solve
+          required: true
+        - label: I have included specific use cases and examples
+          required: true
+        - label: I understand this is a request and not a guarantee of implementation
+          required: true

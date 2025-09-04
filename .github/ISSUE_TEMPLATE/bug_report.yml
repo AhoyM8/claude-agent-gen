@@ -1,0 +1,141 @@
+name: 🐛 Bug Report
+description: Report a bug to help us improve
+title: "🐛 [Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! 🐛
+        
+        Please fill out this form as completely as possible to help us reproduce and fix the issue quickly.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 📋 Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Describe what happened and what you expected to happen
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 🔄 Steps to Reproduce
+      description: Please provide detailed steps to reproduce the bug
+      placeholder: |
+        1. Run command: `./bin/claude-agent-gen.js --url https://example.com/docs`
+        2. See error message: '...'
+        3. Expected behavior: '...'
+      value: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+
+  - type: textarea
+    id: command
+    attributes:
+      label: ⚡ Command Used
+      description: The exact command you ran when the bug occurred
+      render: bash
+      placeholder: "./bin/claude-agent-gen.js --url https://example.com/docs --name test-agent --verbose"
+    validations:
+      required: true
+
+  - type: textarea
+    id: error-output
+    attributes:
+      label: 🚨 Error Output
+      description: The complete error message or unexpected output
+      render: text
+      placeholder: Paste the complete error message here
+    validations:
+      required: false
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: 💻 Operating System
+      description: What operating system are you using?
+      options:
+        - Windows 10
+        - Windows 11
+        - macOS (Intel)
+        - macOS (Apple Silicon)
+        - Ubuntu
+        - Other Linux
+        - Other (please specify in Additional Context)
+    validations:
+      required: true
+
+  - type: input
+    id: node-version
+    attributes:
+      label: 📦 Node.js Version
+      description: What version of Node.js are you using? (run `node --version`)
+      placeholder: "v20.11.0"
+    validations:
+      required: true
+
+  - type: input
+    id: tool-version
+    attributes:
+      label: 🤖 Tool Version
+      description: What version of claude-agent-gen are you using?
+      placeholder: "v1.0.0 or commit hash"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mcp-server
+    attributes:
+      label: 🔧 MCP Server
+      description: Which MCP server were you using?
+      options:
+        - simple (built-in)
+        - playwright
+        - puppeteer
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: target-url
+    attributes:
+      label: 🌐 Target URL
+      description: What documentation URL were you trying to scrape?
+      placeholder: "https://example.com/docs (if comfortable sharing)"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 📝 Additional Context
+      description: |
+        Add any other context about the problem here:
+        - Screenshots or videos
+        - Configuration files
+        - Network environment details
+        - Related issues or discussions
+      placeholder: Any additional information that might help us understand the problem
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: ✅ Checklist
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues to make sure this bug hasn't been reported
+          required: true
+        - label: I have provided clear steps to reproduce the issue
+          required: true
+        - label: I have included relevant error messages and logs
+          required: false
+        - label: I am willing to help test the fix when available
+          required: false

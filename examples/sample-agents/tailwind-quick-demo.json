@@ -1,0 +1,1449 @@
+{
+  "name": "tailwind-quick-demo",
+  "description": "Expert assistant for Tailwindcss Auto-generated from official documentation with comprehensive knowledge of APIs, examples, and best practices.",
+  "version": "1.0.0",
+  "generated_at": "2025-09-04T02:37:52.713Z",
+  "source": {
+    "url": "https://tailwindcss.com/docs/installation",
+    "crawled_pages": 5,
+    "last_updated": "2025-09-04T02:37:52.713Z"
+  },
+  "expertise": {
+    "primary_focus": "Concepts & Theory",
+    "knowledge_areas": [
+      "code-examples",
+      "configuration",
+      "best-practices",
+      "troubleshooting",
+      "concepts"
+    ],
+    "specializations": [
+      "general",
+      "text-development",
+      "guide",
+      "config",
+      "setup",
+      "reference"
+    ],
+    "confidence_level": "high"
+  },
+  "knowledge_base": {
+    "overview": [
+      {
+        "title": "Installing Tailwind CSS with Vite - Tailwind CSS",
+        "summary": "v4.1⌘KCtrl KDocsBlogShowcaseSponsorPlusGetting StartedUsing ViteDocumentationComponentsTemplatesUI KitPlaygroundCourseNewCommunityGetting startedInstallationEditor setupCompatibilityUpgrade guideCore...",
+        "key_points": [],
+        "source_url": "https://tailwindcss.com/docs/installation"
+      },
+      {
+        "title": "Editor setup - Getting started - Tailwind CSS",
+        "summary": "v4.1⌘KCtrl KDocsBlogShowcaseSponsorPlusGetting startedEditor setupDocumentationComponentsTemplatesUI KitPlaygroundCourseNewCommunityGetting startedInstallationEditor setupCompatibilityUpgrade...",
+        "key_points": [],
+        "source_url": "https://tailwindcss.com/docs/editor-setup"
+      },
+      {
+        "title": "Compatibility - Getting started - Tailwind CSS",
+        "summary": "v4.1⌘KCtrl KDocsBlogShowcaseSponsorPlusGetting startedCompatibilityDocumentationComponentsTemplatesUI KitPlaygroundCourseNewCommunityGetting startedInstallationEditor setupCompatibilityUpgrade...",
+        "key_points": [],
+        "source_url": "https://tailwindcss.com/docs/compatibility"
+      },
+      {
+        "title": "Upgrade guide - Getting started - Tailwind CSS",
+        "summary": "v4.1⌘KCtrl KDocsBlogShowcaseSponsorPlusGetting startedUpgrade guideDocumentationComponentsTemplatesUI KitPlaygroundCourseNewCommunityGetting startedInstallationEditor setupCompatibilityUpgrade...",
+        "key_points": [],
+        "source_url": "https://tailwindcss.com/docs/upgrade-guide"
+      }
+    ],
+    "apis": [],
+    "examples": [
+      {
+        "title": "Installing Tailwind CSS with Vite - Tailwind CSS - text Example",
+        "language": "text",
+        "code": "<!doctype html><html><head>  <meta charset=\"UTF-8\">  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">  <link href=\"/src/style.css\" rel=\"stylesheet\"></head><body>  <h1 class=\"text-3xl font-bold underline\">    Hello world!  </h1></body></html>",
+        "description": "",
+        "category": "general",
+        "source_url": "https://tailwindcss.com/docs/installation"
+      },
+      {
+        "title": "Installing Tailwind CSS with Vite - Tailwind CSS - text Example",
+        "language": "text",
+        "code": "<!doctype html><html><head>  <meta charset=\"UTF-8\">  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">  <link href=\"/src/style.css\" rel=\"stylesheet\"></head><body>  <h1 class=\"text-3xl font-bold underline\">    Hello world!  </h1></body></html>",
+        "description": "",
+        "category": "general",
+        "source_url": "https://tailwindcss.com/docs"
+      },
+      {
+        "title": "Editor setup - Getting started - Tailwind CSS - text Example",
+        "language": "text",
+        "code": "<!-- Before --><button class=\"text-white px-4 sm:px-8 py-2 sm:py-3 bg-sky-700 hover:bg-sky-800\">Submit</button><!-- After --><button class=\"bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3\">Submit</button>",
+        "description": "",
+        "category": "general",
+        "source_url": "https://tailwindcss.com/docs/editor-setup"
+      },
+      {
+        "title": "Upgrade guide - Getting started - Tailwind CSS - text Example",
+        "language": "text",
+        "code": "@import \"tailwindcss\" prefix(tw);@theme {  --font-display: \"Satoshi\", \"sans-serif\";  --breakpoint-3xl: 120rem;  --color-avocado-100: oklch(0.99 0 0);  --color-avocado-200: oklch(0.98 0.04 113.22);  --color-avocado-300: oklch(0.94 0.11 115.03);  /* ... */}",
+        "description": "",
+        "category": "guide",
+        "source_url": "https://tailwindcss.com/docs/upgrade-guide"
+      },
+      {
+        "title": "Upgrade guide - Getting started - Tailwind CSS - text Example",
+        "language": "text",
+        "code": ":root {  --tw-font-display: \"Satoshi\", \"sans-serif\";  --tw-breakpoint-3xl: 120rem;  --tw-color-avocado-100: oklch(0.99 0 0);  --tw-color-avocado-200: oklch(0.98 0.04 113.22);  --tw-color-avocado-300: oklch(0.94 0.11 115.03);  /* ... */}",
+        "description": "",
+        "category": "guide",
+        "source_url": "https://tailwindcss.com/docs/upgrade-guide"
+      },
+      {
+        "title": "Upgrade guide - Getting started - Tailwind CSS - text Example",
+        "language": "text",
+        "code": "@layer components {  .btn {    border-radius: 0.5rem;    padding: 0.5rem 1rem;    background-color: ButtonFace;  }}@utility btn {  border-radius: 0.5rem;  padding: 0.5rem 1rem;  background-color: ButtonFace;}",
+        "description": "",
+        "category": "guide",
+        "source_url": "https://tailwindcss.com/docs/upgrade-guide"
+      }
+    ],
+    "concepts": [
+      {
+        "title": "Getting started",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#gettingstarted"
+      },
+      {
+        "title": "Core concepts",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#coreconcepts"
+      },
+      {
+        "title": "Base styles",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#basestyles"
+      },
+      {
+        "title": "Layout",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#layout"
+      },
+      {
+        "title": "Flexbox & Grid",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#flexboxgrid"
+      },
+      {
+        "title": "Spacing",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#spacing"
+      },
+      {
+        "title": "Sizing",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#sizing"
+      },
+      {
+        "title": "Typography",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#typography"
+      },
+      {
+        "title": "Backgrounds",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#backgrounds"
+      },
+      {
+        "title": "Borders",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#borders"
+      },
+      {
+        "title": "Effects",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#effects"
+      },
+      {
+        "title": "Filters",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#filters"
+      },
+      {
+        "title": "Tables",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#tables"
+      },
+      {
+        "title": "Transitions & Animation",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#transitionsanimation"
+      },
+      {
+        "title": "Transforms",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#transforms"
+      },
+      {
+        "title": "Interactivity",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#interactivity"
+      },
+      {
+        "title": "SVG",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#svg"
+      },
+      {
+        "title": "Accessibility",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#accessibility"
+      },
+      {
+        "title": "Get started with Tailwind CSS",
+        "level": 1,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#getstartedwithtailwindcss"
+      },
+      {
+        "title": "Installation",
+        "level": 2,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#installation"
+      },
+      {
+        "title": "Using Vite",
+        "level": 2,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#usingvite"
+      },
+      {
+        "title": "Using PostCSS",
+        "level": 2,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#usingpostcss"
+      },
+      {
+        "title": "Tailwind CLI",
+        "level": 2,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#tailwindcli"
+      },
+      {
+        "title": "Framework Guides",
+        "level": 2,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#frameworkguides"
+      },
+      {
+        "title": "Play CDN",
+        "level": 2,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#playcdn"
+      },
+      {
+        "title": "Installing Tailwind CSS as a Vite plugin",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#installingtailwindcssasaviteplugin"
+      },
+      {
+        "title": "Tailwind CSS",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#tailwindcss"
+      },
+      {
+        "title": "Resources",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#resources"
+      },
+      {
+        "title": "Tailwind Plus",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#tailwindplus"
+      },
+      {
+        "title": "Community",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#community"
+      },
+      {
+        "title": "Tailwind CSS",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#tailwindcss"
+      },
+      {
+        "title": "Tailwind Plus",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#tailwindplus"
+      },
+      {
+        "title": "Resources",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#resources"
+      },
+      {
+        "title": "Community",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation#community"
+      },
+      {
+        "title": "Getting started",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#gettingstarted"
+      },
+      {
+        "title": "Core concepts",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#coreconcepts"
+      },
+      {
+        "title": "Base styles",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#basestyles"
+      },
+      {
+        "title": "Layout",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#layout"
+      },
+      {
+        "title": "Flexbox & Grid",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#flexboxgrid"
+      },
+      {
+        "title": "Spacing",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#spacing"
+      },
+      {
+        "title": "Sizing",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#sizing"
+      },
+      {
+        "title": "Typography",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#typography"
+      },
+      {
+        "title": "Backgrounds",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#backgrounds"
+      },
+      {
+        "title": "Borders",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#borders"
+      },
+      {
+        "title": "Effects",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#effects"
+      },
+      {
+        "title": "Filters",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#filters"
+      },
+      {
+        "title": "Tables",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#tables"
+      },
+      {
+        "title": "Transitions & Animation",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#transitionsanimation"
+      },
+      {
+        "title": "Transforms",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#transforms"
+      },
+      {
+        "title": "Interactivity",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#interactivity"
+      },
+      {
+        "title": "SVG",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#svg"
+      },
+      {
+        "title": "Accessibility",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#accessibility"
+      },
+      {
+        "title": "Get started with Tailwind CSS",
+        "level": 1,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#getstartedwithtailwindcss"
+      },
+      {
+        "title": "Installation",
+        "level": 2,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#installation"
+      },
+      {
+        "title": "Using Vite",
+        "level": 2,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#usingvite"
+      },
+      {
+        "title": "Using PostCSS",
+        "level": 2,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#usingpostcss"
+      },
+      {
+        "title": "Tailwind CLI",
+        "level": 2,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#tailwindcli"
+      },
+      {
+        "title": "Framework Guides",
+        "level": 2,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#frameworkguides"
+      },
+      {
+        "title": "Play CDN",
+        "level": 2,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#playcdn"
+      },
+      {
+        "title": "Installing Tailwind CSS as a Vite plugin",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#installingtailwindcssasaviteplugin"
+      },
+      {
+        "title": "Tailwind CSS",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#tailwindcss"
+      },
+      {
+        "title": "Resources",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#resources"
+      },
+      {
+        "title": "Tailwind Plus",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#tailwindplus"
+      },
+      {
+        "title": "Community",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#community"
+      },
+      {
+        "title": "Tailwind CSS",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#tailwindcss"
+      },
+      {
+        "title": "Tailwind Plus",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#tailwindplus"
+      },
+      {
+        "title": "Resources",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#resources"
+      },
+      {
+        "title": "Community",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs#community"
+      },
+      {
+        "title": "Getting started",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#gettingstarted"
+      },
+      {
+        "title": "Core concepts",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#coreconcepts"
+      },
+      {
+        "title": "Base styles",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#basestyles"
+      },
+      {
+        "title": "Layout",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#layout"
+      },
+      {
+        "title": "Flexbox & Grid",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#flexboxgrid"
+      },
+      {
+        "title": "Spacing",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#spacing"
+      },
+      {
+        "title": "Sizing",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#sizing"
+      },
+      {
+        "title": "Typography",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#typography"
+      },
+      {
+        "title": "Backgrounds",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#backgrounds"
+      },
+      {
+        "title": "Borders",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#borders"
+      },
+      {
+        "title": "Effects",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#effects"
+      },
+      {
+        "title": "Filters",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#filters"
+      },
+      {
+        "title": "Tables",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#tables"
+      },
+      {
+        "title": "Transitions & Animation",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#transitionsanimation"
+      },
+      {
+        "title": "Transforms",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#transforms"
+      },
+      {
+        "title": "Interactivity",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#interactivity"
+      },
+      {
+        "title": "SVG",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#svg"
+      },
+      {
+        "title": "Accessibility",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#accessibility"
+      },
+      {
+        "title": "Editor setup",
+        "level": 1,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#editorsetup"
+      },
+      {
+        "title": "Syntax support",
+        "level": 2,
+        "explanation": "Tailwind CSS uses custom CSS syntax like @theme, @variant, and @source, and in some editors this can trigger warnings or errors where these rules aren't recognized. If you're using VS Code, our official Tailwind CSS IntelliSense plugin includes a dedicated Tailwind CSS language mode that has...",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#syntax-support"
+      },
+      {
+        "title": "IntelliSense for VS Code",
+        "level": 2,
+        "explanation": "The official Tailwind CSS IntelliSense extension for Visual Studio Code enhances the Tailwind development experience by providing users with advanced features such as autocomplete, syntax highlighting, and linting.  \nAutocomplete — providing intelligent suggestions for utility classes, as well as...",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#intellisense-for-vs-code"
+      },
+      {
+        "title": "Class sorting with Prettier",
+        "level": 2,
+        "explanation": "We maintain an official Prettier plugin for Tailwind CSS that automatically sorts your classes following our recommended class order.  It works seamlessly with custom Tailwind configurations, and because it’s just a Prettier plugin, it works anywhere Prettier works—including every popular editor...",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#class-sorting-with-prettier"
+      },
+      {
+        "title": "JetBrains IDEs",
+        "level": 2,
+        "explanation": "JetBrains IDEs like WebStorm, PhpStorm, and others include support for intelligent Tailwind CSS completions in your HTML. Learn more about Tailwind CSS support in JetBrains IDEs →",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#jetbrains-ides"
+      },
+      {
+        "title": "Zed",
+        "level": 2,
+        "explanation": "Zed includes built-in support for Tailwind CSS autocomplete, linting, and hover previews for a variety of languages. It also supports Prettier, so our official Prettier plugin works seamlessly in Zed when installed. Learn more about Tailwind CSS support in Zed →",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#zed"
+      },
+      {
+        "title": "On this page",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#onthispage"
+      },
+      {
+        "title": "Tailwind CSS",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#tailwindcss"
+      },
+      {
+        "title": "Resources",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#resources"
+      },
+      {
+        "title": "Tailwind Plus",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#tailwindplus"
+      },
+      {
+        "title": "Community",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#community"
+      },
+      {
+        "title": "Tailwind CSS",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#tailwindcss"
+      },
+      {
+        "title": "Tailwind Plus",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#tailwindplus"
+      },
+      {
+        "title": "Resources",
+        "level": 3,
+        "explanation": "",
+        "tags": [
+          "config",
+          "setup",
+          "guide"
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup#resources"
+      }
+    ],
+    "patterns": [
+      {
+        "type": "pattern",
+        "description": "Explore our framework guidesTailwind CSSDocumentationPlaygroundBlogShowcaseSponsorResourcesRefactoring UIHeadless UIHeroiconsHero PatternsTailwind PlusUI BlocksTemplatesUI KitCommunityGitHubDiscordXTailwind CSSDocumentationPlaygroundBlogShowcaseSponsorTailwind PlusUI BlocksTemplatesUI KitResourcesRefactoring UIHeadless UIHeroiconsHero PatternsCommunityGitHubDiscordXCopyright © 2025 Tailwind Labs Inc",
+        "examples": [
+          {
+            "language": "text",
+            "code": "npm create vite@latest my-projectcd my-project",
+            "runnable": false
+          },
+          {
+            "language": "text",
+            "code": "npm install tailwindcss @tailwindcss/vite",
+            "runnable": false
+          },
+          {
+            "language": "text",
+            "code": "import { defineConfig } from 'vite'import tailwindcss from '@tailwindcss/vite'export default defineConfig({  plugins: [    tailwindcss(),  ],})",
+            "runnable": false
+          }
+        ],
+        "source_url": "https://tailwindcss.com/docs/installation"
+      },
+      {
+        "type": "pattern",
+        "description": "Explore our framework guidesTailwind CSSDocumentationPlaygroundBlogShowcaseSponsorResourcesRefactoring UIHeadless UIHeroiconsHero PatternsTailwind PlusUI BlocksTemplatesUI KitCommunityGitHubDiscordXTailwind CSSDocumentationPlaygroundBlogShowcaseSponsorTailwind PlusUI BlocksTemplatesUI KitResourcesRefactoring UIHeadless UIHeroiconsHero PatternsCommunityGitHubDiscordXCopyright © 2025 Tailwind Labs Inc",
+        "examples": [
+          {
+            "language": "text",
+            "code": "npm create vite@latest my-projectcd my-project",
+            "runnable": false
+          },
+          {
+            "language": "text",
+            "code": "npm install tailwindcss @tailwindcss/vite",
+            "runnable": false
+          },
+          {
+            "language": "text",
+            "code": "import { defineConfig } from 'vite'import tailwindcss from '@tailwindcss/vite'export default defineConfig({  plugins: [    tailwindcss(),  ],})",
+            "runnable": false
+          }
+        ],
+        "source_url": "https://tailwindcss.com/docs"
+      },
+      {
+        "type": "pattern",
+        "description": "Learn more about Tailwind CSS support in Zed →InstallationCompatibilityOn this pageSyntax supportIntelliSense for VS CodeClass sorting with PrettierJetBrains IDEsZedTailwind CSSDocumentationPlaygroundBlogShowcaseSponsorResourcesRefactoring UIHeadless UIHeroiconsHero PatternsTailwind PlusUI BlocksTemplatesUI KitCommunityGitHubDiscordXTailwind CSSDocumentationPlaygroundBlogShowcaseSponsorTailwind PlusUI BlocksTemplatesUI KitResourcesRefactoring UIHeadless UIHeroiconsHero PatternsCommunityGitHubDiscordXCopyright © 2025 Tailwind Labs Inc",
+        "examples": [
+          {
+            "language": "text",
+            "code": "<!-- Before --><button class=\"text-white px-4 sm:px-8 py-2 sm:py-3 bg-sky-700 hover:bg-sky-800\">Submit</button><!-- After --><button class=\"bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3\">Submit</button>",
+            "runnable": false
+          }
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup"
+      },
+      {
+        "type": "recommended",
+        "description": "Class sorting with Prettier\nWe maintain an official Prettier plugin for Tailwind CSS that automatically sorts your classes following our recommended class order",
+        "examples": [
+          {
+            "language": "text",
+            "code": "<!-- Before --><button class=\"text-white px-4 sm:px-8 py-2 sm:py-3 bg-sky-700 hover:bg-sky-800\">Submit</button><!-- After --><button class=\"bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3\">Submit</button>",
+            "runnable": false
+          }
+        ],
+        "source_url": "https://tailwindcss.com/docs/editor-setup"
+      },
+      {
+        "type": "pattern",
+        "description": "vue<template>  <button><slot /></button></template><style scoped>  button {    background-color: var(--color-blue-500);  }</style>Editor setupUpgrade guideOn this pageBrowser supportSass, Less, and StylusBuild-time importsVariablesNestingLoopsColor and math functionsCSS modulesScoping concernsPerformanceExplicit context sharingVue, Svelte, and AstroTailwind CSSDocumentationPlaygroundBlogShowcaseSponsorResourcesRefactoring UIHeadless UIHeroiconsHero PatternsTailwind PlusUI BlocksTemplatesUI KitCommunityGitHubDiscordXTailwind CSSDocumentationPlaygroundBlogShowcaseSponsorTailwind PlusUI BlocksTemplatesUI KitResourcesRefactoring UIHeadless UIHeroiconsHero PatternsCommunityGitHubDiscordXCopyright © 2025 Tailwind Labs Inc",
+        "examples": [
+          {
+            "language": "text",
+            "code": "@import \"tailwindcss\";@import \"./typography.css\";",
+            "runnable": false
+          },
+          {
+            "language": "text",
+            "code": ".typography {  font-size: var(--text-base);  color: var(--color-gray-700);}",
+            "runnable": false
+          },
+          {
+            "language": "text",
+            "code": ".typography {  p {    font-size: var(--text-base);  }  img {    border-radius: var(--radius-lg);  }}",
+            "runnable": false
+          }
+        ],
+        "source_url": "https://tailwindcss.com/docs/compatibility"
+      },
+      {
+        "type": "recommended",
+        "description": "When using Tailwind, the recommended workflow is to use a predefined color palette that includes light and dark shades of each color, like the expertly designed default color palette included with the framework",
+        "examples": [
+          {
+            "language": "text",
+            "code": "@import \"tailwindcss\";@import \"./typography.css\";",
+            "runnable": false
+          },
+          {
+            "language": "text",
+            "code": ".typography {  font-size: var(--text-base);  color: var(--color-gray-700);}",
+            "runnable": false
+          },
+          {
+            "language": "text",
+            "code": ".typography {  p {    font-size: var(--text-base);  }  img {    border-radius: var(--radius-lg);  }}",
+            "runnable": false
+          }
+        ],
+        "source_url": "https://tailwindcss.com/docs/compatibility"
+      },
+      {
+        "type": "should",
+        "description": "Think of Tailwind CSS itself as your preprocessor — you shouldn't use Tailwind with Sass for the same reason you wouldn't use Sass with Stylus",
+        "examples": [
+          {
+            "language": "text",
+            "code": "@import \"tailwindcss\";@import \"./typography.css\";",
+            "runnable": false
+          },
+          {
+            "language": "text",
+            "code": ".typography {  font-size: var(--text-base);  color: var(--color-gray-700);}",
+            "runnable": false
+          },
+          {
+            "language": "text",
+            "code": ".typography {  p {    font-size: var(--text-base);  }  img {    border-radius: var(--radius-lg);  }}",
+            "runnable": false
+          }
+        ],
+        "source_url": "https://tailwindcss.com/docs/compatibility"
+      },
+      {
+        "type": "avoid",
+        "description": "CSS modules\nTailwind is compatible with CSS modules and can co-exist with them if you are introducing Tailwind into a project that already uses them, but we don't recommend using CSS modules and Tailwind together if you can avoid it. \nIf you're using Tailwind with these tools, we recommend avoiding <style> blocks in your components and just styling things with utility classes directly in your markup, the way Tailwind is meant to be used",
+        "examples": [
+          {
+            "language": "text",
+            "code": "@import \"tailwindcss\";@import \"./typography.css\";",
+            "runnable": false
+          },
+          {
+            "language": "text",
+            "code": ".typography {  font-size: var(--text-base);  color: var(--color-gray-700);}",
+            "runnable": false
+          },
+          {
+            "language": "text",
+            "code": ".typography {  p {    font-size: var(--text-base);  }  img {    border-radius: var(--radius-lg);  }}",
+            "runnable": false
+          }
+        ],
+        "source_url": "https://tailwindcss.com/docs/compatibility"
+      }
+    ],
+    "troubleshooting": [
+      {
+        "title": "Installing Tailwind CSS with Vite - Tailwind CSS",
+        "common_issues": [],
+        "solutions": [],
+        "error_codes": [],
+        "source_url": "https://tailwindcss.com/docs/installation"
+      },
+      {
+        "title": "Installing Tailwind CSS with Vite - Tailwind CSS",
+        "common_issues": [],
+        "solutions": [],
+        "error_codes": [],
+        "source_url": "https://tailwindcss.com/docs"
+      },
+      {
+        "title": "Editor setup - Getting started - Tailwind CSS",
+        "common_issues": [],
+        "solutions": [],
+        "error_codes": [],
+        "source_url": "https://tailwindcss.com/docs/editor-setup"
+      },
+      {
+        "title": "Compatibility - Getting started - Tailwind CSS",
+        "common_issues": [],
+        "solutions": [],
+        "error_codes": [],
+        "source_url": "https://tailwindcss.com/docs/compatibility"
+      }
+    ],
+    "configuration": [
+      {
+        "title": "Editor setup - Getting started - Tailwind CSS",
+        "options": [
+          {
+            "name": "class",
+            "value": "\"text-white px-4 sm:px-8 py-2 sm:py-3 bg-sky-700 hover:bg-sky-800\">Submit</button><!-- After --><button class=\"bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3\">Submit</button>",
+            "description": ""
+          },
+          {
+            "name": "__next_f",
+            "value": "self.__next_f||[]).push([0])self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n4:I[65020,[],\\\"\\\"]\\n5:I[36586,[],\\\"\\\"]\\n7:I[90924,[],\\\"OutletBoundary\\\"]\\nd:I[82468,[],\\\"AsyncMetadataOutlet\\\"]\\nf:I[90924,[],\\\"ViewportBoundary\\\"]\\n11:I[90924,[],\\\"MetadataBoundary\\\"]\\n13:I[34275,[],\\\"\\\"]\\n:HL[\\\"/_next/static/media/0336a89fb4e7fc1d-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/162e1140ce5a788f-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/37581c031699de0a-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/44abb7d9d613e278-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/551ac2b2ce969c74-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/5ba23b2b0ac11fa6-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/5f4877925f1cef50-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/ba487c32d105d659-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/c91adde9f78caceb-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/dab80f54fa5deafc-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/css/65272cceccd6a57d.css\\\",\\\"style\\\"]\\n:HL[\\\"/_next/static/css/b639fd46f42b2130.css\\\",\\\"style\\\"]\\n\"])self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"b\\\":\\\"uN45kpoRrZeMv4p6ru1rU\\\",\\\"p\\\":\\\"\\\",\\\"c\\\":[\\\"\\\",\\\"docs\\\",\\\"editor-setup\\\"],\\\"i\\\":false,\\\"f\\\":[[[\\\"\\\",{\\\"children\\\":[\\\"(docs)\\\",{\\\"breadcrumb\\\":[\\\"children\\\",{\\\"children\\\":[\\\"docs\\\",{\\\"children\\\":[[\\\"slug\\\",\\\"editor-setup\\\",\\\"d\\\"],{\\\"children\\\":[\\\"__PAGE__\\\",{}]}]}]}],\\\"children\\\":[\\\"docs\\\",{\\\"children\\\":[[\\\"slug\\\",\\\"editor-setup\\\",\\\"d\\\"],{\\\"children\\\":[\\\"__PAGE__\\\",{}]}]}]}]},\\\"$undefined\\\",\\\"$undefined\\\",true],[\\\"\\\",[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[[[\\\"$\\\",\\\"link\\\",\\\"0\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/css/65272cceccd6a57d.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"$undefined\\\",\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"link\\\",\\\"1\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/css/b639fd46f42b2130.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"$undefined\\\",\\\"nonce\\\":\\\"$undefined\\\"}]],\\\"$L2\\\"]}],{\\\"children\\\":[\\\"(docs)\\\",[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[null,\\\"$L3\\\"]}],{\\\"breadcrumb\\\":[\\\"children\\\",[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$L4\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L5\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":\\\"$undefined\\\",\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}]]}],{\\\"children\\\":[\\\"docs\\\",[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$L4\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L5\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":\\\"$undefined\\\",\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}]]}],{\\\"children\\\":[[\\\"slug\\\",\\\"editor-setup\\\",\\\"d\\\"],[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$L4\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L5\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":\\\"$undefined\\\",\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}]]}],{\\\"children\\\":[\\\"__PAGE__\\\",[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[\\\"$L6\\\",null,[\\\"$\\\",\\\"$L7\\\",null,{\\\"children\\\":[\\\"$L8\\\",\\\"$L9\\\",\\\"$undefined\\\"]}]]}],{},null,false]},null,false]},null,false]},null,false],\\\"children\\\":[\\\"docs\\\",[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$L4\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L5\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":\\\"$undefined\\\",\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}]]}],{\\\"children\\\":[[\\\"slug\\\",\\\"editor-setup\\\",\\\"d\\\"],[\\\"$\\\",\\\"$1\\\",\\\"c\\",
+            "description": ""
+          }
+        ],
+        "examples": [
+          {
+            "language": "text",
+            "code": "<!-- Before --><button class=\"text-white px-4 sm:px-8 py-2 sm:py-3 bg-sky-700 hover:bg-sky-800\">Submit</button><!-- After --><button class=\"bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3\">Submit</button>",
+            "runnable": false
+          }
+        ],
+        "prerequisites": [],
+        "source_url": "https://tailwindcss.com/docs/editor-setup"
+      }
+    ]
+  },
+  "capabilities": {
+    "can_provide_examples": true,
+    "can_debug_issues": true,
+    "can_explain_concepts": true,
+    "can_suggest_patterns": true,
+    "has_api_knowledge": false,
+    "has_configuration_help": true
+  },
+  "instructions": "You are an expert assistant specialized in tailwindcss. Your knowledge comes from comprehensive analysis of the official documentation.\n\n## Your Expertise\n\nYou have deep knowledge in the following areas:\n- code examples\\n- configuration\\n- best practices\\n- troubleshooting\\n- concepts\n\n## How to Help Users\n\n1. **Provide Accurate Information**: Use your knowledge base to give precise, up-to-date guidance based on official documentation.\n\n2. **Show Examples**: When possible, provide relevant code examples from your knowledge base to illustrate concepts.\n\n3. **Explain Concepts**: Break down complex topics using the concepts and explanations in your knowledge base.\n\n4. **Suggest Best Practices**: Share patterns and best practices you've learned from the documentation.\n\n5. **Help with Troubleshooting**: Use your troubleshooting knowledge to help diagnose and solve problems.\n\n6. **Configuration Assistance**: Provide guidance on setup and configuration options.\n\n## Response Guidelines\n\n- Always cite source documentation when providing specific technical details\n- Provide working code examples when available\n- Explain the reasoning behind recommendations\n- Suggest related concepts that might be helpful\n- Be specific about version compatibility when relevant\n\n## Knowledge Limitations\n\nYour knowledge is based on documentation crawled on 4.9.2025 from https://tailwindcss.com/docs/installation. \n- Total pages processed: 5\n- Examples available: 61\n- API endpoints documented: 0\n\nAlways acknowledge when you're uncertain about information not covered in your knowledge base.",
+  "metadata": {
+    "generation_stats": {
+      "pages_processed": 5,
+      "examples_found": 61,
+      "concepts_extracted": 197,
+      "api_endpoints": 0,
+      "code_blocks": 61
+    },
+    "quality_score": 80,
+    "coverage_areas": [
+      "rich-examples",
+      "detailed-concepts",
+      "troubleshooting-support"
+    ]
+  }
+}

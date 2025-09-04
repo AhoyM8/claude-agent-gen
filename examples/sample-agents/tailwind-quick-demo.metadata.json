@@ -1,0 +1,22 @@
+{
+  "generated_at": "2025-09-04T02:37:52.738Z",
+  "source_url": "https://tailwindcss.com/docs/installation",
+  "options": {
+    "url": "https://tailwindcss.com/docs/installation",
+    "name": "tailwind-quick-demo",
+    "depth": 1,
+    "output": "./demo-output",
+    "verbose": true,
+    "mcpServer": "simple",
+    "maxPages": 5
+  },
+  "stats": {
+    "pages_crawled": 5,
+    "knowledge_extracted": {
+      "apis": 0,
+      "examples": 6,
+      "concepts": 100,
+      "patterns": 8
+    }
+  }
+}
