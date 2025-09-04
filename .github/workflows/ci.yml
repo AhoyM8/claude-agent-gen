@@ -24,9 +24,10 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
+        cache: 'npm'
         
     - name: 🔧 Install dependencies
-      run: npm install
+      run: npm ci
       
     - name: 🧪 Run tests
       run: npm test
@@ -48,9 +49,10 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20'
+        cache: 'npm'
         
     - name: 🔧 Install dependencies
-      run: npm install
+      run: npm ci
       
     - name: 🎨 Run ESLint
       run: npm run lint
@@ -72,9 +74,10 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20'
+        cache: 'npm'
         
     - name: 🔧 Install dependencies
-      run: npm install
+      run: npm ci
       
     - name: 🔍 Run security audit
       run: npm audit --audit-level=high
@@ -95,9 +98,10 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20'
+        cache: 'npm'
         
     - name: 🔧 Install dependencies
-      run: npm install
+      run: npm ci
       
     - name: 🌐 Test real documentation sites  
       run: |
@@ -122,10 +126,11 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20'
+        cache: 'npm'
         registry-url: 'https://registry.npmjs.org'
         
     - name: 🔧 Install dependencies
-      run: npm install
+      run: npm ci
       
     - name: 🏗️ Build package
       run: npm run build
